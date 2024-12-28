@@ -33,7 +33,7 @@ export default function RootLayout({
           <div className="flex w-full">
             <Layout>{children}</Layout>
           </div>
-          <Analytics />
+          {/* <Analytics /> */}
         </Providers>
       </body>
     </html>
