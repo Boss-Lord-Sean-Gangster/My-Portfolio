@@ -13,10 +13,10 @@ export type EducationItemType = {
   
   export const educationList: Array<EducationItemType> = [
     {
-      school: 'Southern University of Science and Technology',
+      school: 'Guru Gobind Singh Indraprastha University',
       major: 'Computer Science and Technology',
       logo: 'college',
-      start: '2016',
-      end: '2020'
+      start: '2021',
+      end: '2025'
     },
   ]

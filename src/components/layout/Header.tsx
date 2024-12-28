@@ -189,7 +189,9 @@ function Avatar({
       {...props}
     >
       <Image
-        src={avatarImage}
+        src='/mi.jpg'
+        width={large ? 64 : 32}
+        height={large ? 64 : 32}
         alt=""
         sizes={large ? '4rem' : '2.25rem'}
         className={clsx(
@@ -292,7 +294,7 @@ export function Header() {
         return
       }
 
-      // 当滚动超过一定距离时，完全隐藏 Hi
+  
       let opacity = window.scrollY < 50 ? 1 : 0
 
       setProperty('--avatar-hi-opacity', opacity.toString())

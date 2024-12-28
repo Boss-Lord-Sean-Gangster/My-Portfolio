@@ -1,30 +1,29 @@
 export * from './projects'
-export * from './friends'
-export * from './changelog'
 export * from './education'
 export * from './career'
 export * from './activity'
 
 
 // personal info
-export const name = 'Corey Chiu'
-export const headline = 'Software engineer, Full-Stack web developer, and indie hacker.'
-export const introduction = 'I’m Corey, a software engineer based in Shenzhen, China. I like coding, and building interesting things'
-export const email = 'iamcoreychiu@gmail.com'
-export const githubUsername = 'iamcorey'
+export const name = 'Nikhil Sharma '
+export const headline = ' Full-Stack web developer and Software engineer.'
+export const introduction = 'I’m Nikhil, a web developer from India. I like coding, and building interesting things'
+export const email = 'nicks14368@gmail.com'
+export const githubUsername = 'Boss-Lord-Sean-Gangster'
 
 // about page
-export const aboutMeHeadline = "I'm Corey Chiu, a software engineer based in Shenzhen, China."
+export const aboutMeHeadline = "I'm Nikhil Sharma, a software engineer based in India."
 export const aboutParagraphs = [
-  "I love coding. I learned programming when I in college. I wrote my first program in Java when I was 18.",
-  "I have a lot of hobbies, such as travelling, photography, watching movies, music and so on.",
-  "I'm working as a software develop engineer in Shenzhen, China now. And I'm building a lot of side projects in my spare time."
+  "I got into coding when I was 16, and I've been learning ever since. I've worked on a variety of projects, from simple websites to complex web applications.",
+  "I have a lot of hobbies, such as gaming, travelling, singing and so on.",
+  "I'm working as a fullstack developer engineer in India now. And I'm building a lot of side projects in my spare time.",
+  "I have ambition to learn Web3 and LLM models."
 ]
 
 
 // blog
-export const blogHeadLine = "What I've thinking about."
-export const blogIntro = "I've written something about AI, programming and life."
+export const blogHeadLine = "Here are some of my thoughts."
+export const blogIntro = "I've written something about programming and life."
 
 
 // social links
@@ -39,33 +38,13 @@ export const socialLinks: Array<SocialLinkType> = [
   {
     name: 'X',
     icon: 'x',
-    href: 'https://x.com/realcoreychiu'
-  },
-  {
-    name: 'Bsky',
-    icon: 'bsky',
-    href: 'https://bsky.app/profile/coreychiu.com'
-  },
-  {
-    name: 'Jike',
-    icon: 'pill',
-    href: 'https://okjk.co/P7c1zU'
+    href: 'https://x.com/CodeCrypt_'
   },
   {
     name: 'Github',
     icon: 'github',
-    href: 'https://github.com/iamcorey'
+    href: 'https://github.com/Boss-Lord-Sean-Gangster'
   },
-  {
-    name: 'Wechat',
-    icon: 'wechat',
-    href: 'https://mp.weixin.qq.com/s/DxnRgqNfgzXIhqj6w_x0dQ'
-  },
-  {
-    name: 'Ko-fi',
-    icon: 'coffee',
-    href: 'https://ko-fi.com/coreychiu'
-  }
 ]
 
 // https://simpleicons.org/
@@ -91,7 +70,6 @@ export const techIcons = [
   "androidstudio",
   "ios",
   "apple",
-  "wechat"
 ];
 
 
